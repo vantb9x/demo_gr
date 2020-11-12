@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demo_grab">
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.grab.partner.sdk.ClientId"
+            android:value="2a3e94b3ee384868a232055db884504d"/>
+        <meta-data
+            android:name="com.grab.partner.sdk.RedirectURI"
+            android:value="gc-2a3e94b3ee384868a232055db884504d-ynktyjvsd-adr://open"/>
+        <meta-data
+            android:name="com.grab.partner.sdk.Scope"
+            android:value="payment.vn.one_time_charge openid"/>
+        <meta-data
+            android:name="cođm.grab.partner.sdk.AcrValues"
+            android:value="consent_ctx:countryCode=VN,currency=VND"/>
+        <meta-data
+            android:name="com.grab.partner.sdk.Request"
+            android:value="eyJhbGciOiAibm9uZSJ9.eyJjbGFpbXMiOnsidHJhbnNhY3Rpb24iOnsidHhJRCI6IjVkZTQxNmY4NzRmMDRiOTI5YjlhZDc2YzdmOTUyZjgzIn19fQ."/>
+        <meta-data
+            android:name="com.grab.partner.sdk.LoginHint"
+            android:value=""/>
+        <meta-data
+            android:name="com.grab.partner.sdk.IDTokenHint"
+            android:value=""/>
+        <meta-data
+            android:name="com.grab.partner.sdk.Prompt"
+            android:value=""/>
+        <meta-data
+            android:name="com.grab.partner.sdk.ServiceDiscoveryUrl"
+            android:value="https://stg-paysi.moca.vn/grabid/v1/oauth2/.well-known/openid-configuration"/>
+    </application>
+
+</manifest>
