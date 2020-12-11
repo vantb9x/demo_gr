@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         String action = intent.getAction();
-        String redirectUrl = intent.getDataString();
+//        String redirectUrl = intent.getDataString();
+        String redirectUrl = "fahasaapp://";
         if (Intent.ACTION_VIEW == action && redirectUrl != null) {
             viewModel.setRedirectUrl(redirectUrl);
             // initiate the token exchange with GRAB ID Partner SDK

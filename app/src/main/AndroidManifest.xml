@@ -34,7 +34,7 @@
             android:value="consent_ctx:countryCode=VN,currency=VND"/>
         <meta-data
             android:name="com.grab.partner.sdk.Request"
-            android:value="eyJhbGciOiAibm9uZSJ9.eyJjbGFpbXMiOnsidHJhbnNhY3Rpb24iOnsidHhJRCI6IjVkZTQxNmY4NzRmMDRiOTI5YjlhZDc2YzdmOTUyZjgzIn19fQ."/>
+            android:value="eyJhbGciOiAibm9uZSJ9.eyJjbGFpbXMiOnsidHJhbnNhY3Rpb24iOnsidHhJRCI6IjdkYTY1MTNhZmRlNzQ3NWNhNWYwYTlkYjlmYTJiZDFiIn19fQ."/>
         <meta-data
             android:name="com.grab.partner.sdk.LoginHint"
             android:value=""/>
